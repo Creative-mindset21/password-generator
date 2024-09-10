@@ -10,7 +10,7 @@ A simple and user-friendly random password generator that allows users to create
 
 ## Demo
 
-![Password Generator Demo](link-to-demo-image)
+![Password Generator Demo](./images/preview-image.png)
 
 ## Getting Started
 
