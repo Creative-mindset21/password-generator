@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: #fff;
+}
+
+body {
+  background: #1f2937;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  left: 10%;
+  width: 40%;
+}
+
+.container h2 {
+  font-size: 4rem;
+  line-height: 75px;
+  margin-bottom: 1rem;
+}
+
+span {
+  color: #00b4d8;
+}
+
+.container p {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+}
+
+button {
+  padding: 10px 35px;
+  color: #fff;
+  background-color: #00b4d8;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color: #9c9b9b;
+  height: 1px;
+}
+
+.password-contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.password-contain p {
+  background: #273549;
+  padding: 5px 15px;
+  height: 50px;
+  width: 240px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #00b4d8;
+  border-radius: 10px;
+}
+
+#password-one {
+  cursor: pointer;
+}
+
+#password-two {
+  cursor: pointer;
+}
+
+@media (min-width: 1224px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 499px) {
+  .container {
+    width: 70%;
+  }
+
+  .container h2 {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+
+  .container p {
+    font-size: 1rem;
+  }
+
+  .password-contain {
+    display: block;
+  }
+}
